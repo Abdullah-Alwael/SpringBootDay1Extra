@@ -82,56 +82,152 @@ public class ExtraController {
 
     @GetMapping("/romance")
     public String romance(){
-        return "Romance novels focus on the development of a romantic relationship between two or more characters. A key element is an emotionally satisfying and optimistic ending, even if there are obstacles and conflicts along the way. Subgenres can include historical, contemporary, paranormal, and more.";
+        return "Romance novels focus on the development of a romantic relationship between two or more characters. " +
+                "A key element is an emotionally satisfying and optimistic ending, even if there are obstacles " +
+                "and conflicts along the way. Subgenres can include historical, contemporary, paranormal, and more." +
+                "<br>Books:\n" +
+                "<br>1) Pride and Prejudice by Jane Austen\n" +
+                "<br>2) The Notebook by Nicholas Sparks\n" +
+                "<br>3) Red, White & Royal Blue by Casey McQuiston\n" +
+                "<br>4) The Love Hypothesis by Ali Hazelwood\n" +
+                "<br>5) It Ends With Us by Colleen Hoover";
     }
 
     @GetMapping("/historical-fiction")
     public String historicalFiction(){
-        return "Historical fiction books are set in a specific period of the past, often incorporating real historical events, figures, or social conditions. While the characters and specific plot may be fictional, the setting and cultural details are researched to provide an authentic portrayal of the era.";
+        return "Historical fiction books are set in a specific period of the past, often incorporating real" +
+                " historical events, figures, or social conditions. While the characters and specific plot" +
+                " may be fictional, the setting and cultural details are researched to provide an authentic" +
+                " portrayal of the era." +
+                "<br>Books:\n" +
+                "<br>1) The Nightingale by Kristin Hannah\n" +
+                "<br>2) A Tale of Two Cities by Charles Dickens\n" +
+                "<br>3) The Pillars of the Earth by Ken Follett\n" +
+                "<br>4) The Book Thief by Markus Zusak\n" +
+                "<br>5) Circe by Madeline Miller";
     }
 
     @GetMapping("/horror")
     public String horror(){
-        return "Horror aims to frighten, disturb, and evoke feelings of dread in the reader. It often features supernatural elements, psychological terror, monsters, or extreme violence, exploring humanity's deepest fears and anxieties.";
+        return "Horror aims to frighten, disturb, and evoke feelings of dread in the reader." +
+                " It often features supernatural elements, psychological terror, monsters, or extreme violence," +
+                " exploring humanity's deepest fears and anxieties." +
+                "<br>Books:\n" +
+                "<br>1) It by Stephen King\n" +
+                "<br>2) Frankenstein by Mary Shelley\n" +
+                "<br>3) Dracula by Bram Stoker\n" +
+                "<br>4) The Haunting of Hill House by Shirley Jackson\n" +
+                "<br>5) Mexican Gothic by Silvia Moreno-Garcia";
     }
 
     @GetMapping("/young-adult")
     public String youngAdult(){
-        return "Young Adult literature is written for an audience typically aged 12 to 18. It often deals with coming-of-age themes, identity, first love, friendship, and navigating the challenges of adolescence, spanning various genres like fantasy, contemporary, and dystopian.";
+        return "Young Adult literature is written for an audience typically aged 12 to 18. " +
+                "It often deals with coming-of-age themes, identity, first love, friendship, " +
+                "and navigating the challenges of adolescence, spanning various genres like fantasy, " +
+                "contemporary, and dystopian." +
+                "<br>Books:\n" +
+                "<br>1) The Hunger Games by Suzanne Collins\n" +
+                "<br>2) The Fault in Our Stars by John Green\n" +
+                "<br>3) Divergent by Veronica Roth\n" +
+                "<br>4) Twilight by Stephenie Meyer\n" +
+                "<br>5) Six of Crows by Leigh Bardugo";
     }
 
     @GetMapping("/childrens-literature")
     public String childrenLiterature(){
-        return "Children's literature encompasses books written for young readers, typically from infancy through early adolescence. These books often feature simple language, engaging stories, colorful illustrations, and aim to entertain, educate, and impart moral lessons suitable for their developmental stage.";
+        return "Children's literature encompasses books written for young readers, " +
+                "typically from infancy through early adolescence. These books often feature simple language," +
+                " engaging stories, colorful illustrations, and aim to entertain, educate, " +
+                "and impart moral lessons suitable for their developmental stage." +
+                "<br>Books:\n" +
+                "<br>1) Charlotte's Web by E.B. White\n" +
+                "<br>2) Matilda by Roald Dahl\n" +
+                "<br>3) Where the Wild Things Are by Maurice Sendak\n" +
+                "<br>4) The Lion, the Witch and the Wardrobe by C.S. Lewis\n" +
+                "<br>5) Goodnight Moon by Margaret Wise Brown";
     }
 
     @GetMapping("/biography")
     public String biography(){
-        return "Biographies are non-fiction accounts of a person's life, written by someone else. Memoirs are autobiographical accounts written by the person themselves, usually focusing on a specific period, theme, or series of events in their life rather than their entire life story.";
+        return "Biographies are non-fiction accounts of a person's life, " +
+                "written by someone else. Memoirs are autobiographical accounts written by the person themselves," +
+                " usually focusing on a specific period, theme, or series of events in their life" +
+                " rather than their entire life story." +
+                "<br>Books:\n" +
+                "<br>1) Educated by Tara Westover\n" +
+                "<br>2) The Diary of a Young Girl by Anne Frank\n" +
+                "<br>3) Becoming by Michelle Obama\n" +
+                "<br>4) I Know Why the Caged Bird Sings by Maya Angelou\n" +
+                "<br>5) Steve Jobs by Walter Isaacson";
     }
 
     @GetMapping("/personal-development")
     public String personalDevelopment(){
-        return "These non-fiction books offer advice, strategies, and guidance to help readers improve various aspects of their lives, such as relationships, career, finances, mental health, or personal habits. They often provide actionable steps and motivational insights.";
+        return "These non-fiction books offer advice, strategies, and guidance to help readers improve " +
+                "various aspects of their lives, such as relationships, career, finances, mental health, " +
+                "or personal habits. They often provide actionable steps and motivational insights." +
+                "<br>Books:\n" +
+                "<br>1) Atomic Habits by James Clear\n" +
+                "<br>2) The 7 Habits of Highly Effective People by Stephen Covey\n" +
+                "<br>3) Daring Greatly by Brené Brown\n" +
+                "<br>4) Think and Grow Rich by Napoleon Hill\n" +
+                "<br>5) The Subtle Art of Not \"caring\"* by Mark Manson";
     }
 
     @GetMapping("/classics")
     public String classics(){
-        return "Classic literature refers to books that have stood the test of time, demonstrating enduring literary merit and cultural significance. They often explore universal themes, have influenced subsequent literature, and are widely studied and admired across generations.";
+        return "Classic literature refers to books that have stood the test of time, " +
+                "demonstrating enduring literary merit and cultural significance. " +
+                "They often explore universal themes, have influenced subsequent literature, " +
+                "and are widely studied and admired across generations." +
+                "<br>Books:\n" +
+                "<br>1) To Kill a Mockingbird by Harper Lee\n" +
+                "<br>2) The Great Gatsby by F. Scott Fitzgerald\n" +
+                "<br>3) Moby Dick by Herman Melville\n" +
+                "<br>4) Jane Eyre by Charlotte Brontë\n" +
+                "<br>5) Crime and Punishment by Fyodor Dostoevsky";
     }
 
     @GetMapping("/non-fiction")
     public String nonFiction(){
-        return "This broad category includes factual books that provide information, analysis, or arguments about real-world topics. This can range from detailed historical accounts, scientific explanations, journalistic investigations, travelogues, and essays on a wide array of subjects.";
+        return "This broad category includes factual books that provide information, " +
+                "analysis, or arguments about real-world topics. This can range from detailed historical accounts," +
+                " scientific explanations, journalistic investigations, travelogues, " +
+                "and essays on a wide array of subjects." +
+                "<br>Books:\n" +
+                "<br>1) Sapiens: A Brief History of Humankind by Yuval Noah Harari\n" +
+                "<br>2) Cosmos by Carl Sagan\n" +
+                "<br>3) A Brief History of Time by Stephen Hawking\n" +
+                "<br>4) Into Thin Air by Jon Krakauer\n" +
+                "<br>5) The Immortal Life of Henrietta Lacks by Rebecca Skloot";
     }
 
     @GetMapping("/novels-and-comics")
     public String novelsAndComics(){
-        return "Graphic novels and comics tell stories primarily through sequential art, combining illustrations with text. They can span all genres and often feature complex narratives, sophisticated artwork, and are distinct from traditional comic strips in their length and often more mature themes.";
+        return "Graphic novels and comics tell stories primarily through sequential art, " +
+                "combining illustrations with text. They can span all genres and often feature complex narratives," +
+                " sophisticated artwork, and are distinct from traditional comic strips in their length" +
+                " and often more mature themes." +
+                "<br>Books:\n" +
+                "<br>1) Maus by Art Spiegelman\n" +
+                "<br>2) Persepolis by Marjane Satrapi\n" +
+                "<br>3) Watchmen by Alan Moore and Dave Gibbons\n" +
+                "<br>4) Saga, Vol. 1 by Brian K. Vaughan and Fiona Staples\n" +
+                "<br>5) Fun Home by Alison Bechdel";
     }
 
     @GetMapping("/poetry")
     public String poetry(){
-        return "Poetry is a form of literature that uses aesthetic and rhythmic qualities of language such as phonaesthetics, sound symbolism, and metre to evoke meanings in addition to, or in place of, prosaic ostensible meaning. It often explores emotions, experiences, and ideas in a concise and evocative manner.";
+        return "Poetry is a form of literature that uses aesthetic and rhythmic qualities of language" +
+                " such as phonaesthetics, sound symbolism, and metre to evoke meanings in addition to, " +
+                "or in place of, prosaic ostensible meaning. It often explores emotions, experiences, " +
+                "and ideas in a concise and evocative manner." +
+                "<br>Books:\n" +
+                "<br>1) The Waste Land by T.S. Eliot\n" +
+                "<br>2) Leaves of Grass by Walt Whitman\n" +
+                "<br>3) Selected Poems by Emily Dickinson\n" +
+                "<br>4) Milk and Honey by Rupi Kaur\n" +
+                "<br>5) Where the Sidewalk Ends by Shel Silverstein";
     }
 }
