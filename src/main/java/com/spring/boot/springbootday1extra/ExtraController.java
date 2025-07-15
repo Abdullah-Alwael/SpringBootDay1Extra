@@ -43,9 +43,9 @@ public class ExtraController {
 
     @GetMapping("/science-fiction")
     public String scienceFiction(){
-        return "Science Fiction explores speculative concepts rooted in science and technology, often set in " +
+        return "<h1>Science Fiction explores speculative concepts rooted in science and technology, often set in " +
                 "the future or on other planets. Themes frequently include artificial intelligence, " +
-                "space travel, dystopian societies, time travel, and the impact of advanced technology on humanity." +
+                "space travel, dystopian societies, time travel, and the impact of advanced technology on humanity.</h1>" +
                 "<br>Books:" +
                 "<br>1) Dune by Frank Herbert" +
                 "<br>2) 1984 by George Orwell" +
@@ -56,9 +56,9 @@ public class ExtraController {
 
     @GetMapping("/mystery")
     public String mystery(){
-        return "Mystery novels center around a crime or a perplexing puzzle that a protagonist, " +
+        return "<h1>Mystery novels center around a crime or a perplexing puzzle that a protagonist, " +
                 "often a detective, must solve. They are characterized by suspense, red herrings, clues, " +
-                "and a gradual revelation of information leading to a final solution or unmasking of the culprit." +
+                "and a gradual revelation of information leading to a final solution or unmasking of the culprit.</h1>" +
                 "<br>Books:" +
                 "<br>1) And Then There Were None by Agatha Christie" +
                 "<br>2) The Girl with the Dragon Tattoo by Stieg Larsson" +
@@ -69,9 +69,9 @@ public class ExtraController {
 
     @GetMapping("/thriller")
     public String thriller(){
-        return "Thrillers are designed to evoke strong feelings of excitement, suspense, and anxiety in the reader." +
+        return "<h1>Thrillers are designed to evoke strong feelings of excitement, suspense, and anxiety in the reader." +
                 " They typically involve high stakes, fast-paced plots, unexpected twists, and often a protagonist " +
-                "in peril who must overcome significant obstacles, frequently against a ticking clock." +
+                "in peril who must overcome significant obstacles, frequently against a ticking clock.</h1>" +
                 "<br>Books:" +
                 "<br>1) The Silence of the Lambs by Thomas Harris" +
                 "<br>2) The Guest List by Lucy Fokley" +
@@ -82,9 +82,9 @@ public class ExtraController {
 
     @GetMapping("/romance")
     public String romance(){
-        return "Romance novels focus on the development of a romantic relationship between two or more characters. " +
+        return "<h1>Romance novels focus on the development of a romantic relationship between two or more characters. " +
                 "A key element is an emotionally satisfying and optimistic ending, even if there are obstacles " +
-                "and conflicts along the way. Subgenres can include historical, contemporary, paranormal, and more." +
+                "and conflicts along the way. Subgenres can include historical, contemporary, paranormal, and more.</h1>" +
                 "<br>Books:" +
                 "<br>1) Pride and Prejudice by Jane Austen" +
                 "<br>2) The Notebook by Nicholas Sparks" +
@@ -95,10 +95,10 @@ public class ExtraController {
 
     @GetMapping("/historical-fiction")
     public String historicalFiction(){
-        return "Historical fiction books are set in a specific period of the past, often incorporating real" +
+        return "<h1>Historical fiction books are set in a specific period of the past, often incorporating real" +
                 " historical events, figures, or social conditions. While the characters and specific plot" +
                 " may be fictional, the setting and cultural details are researched to provide an authentic" +
-                " portrayal of the era." +
+                " portrayal of the era.</h1>" +
                 "<br>Books:" +
                 "<br>1) The Nightingale by Kristin Hannah" +
                 "<br>2) A Tale of Two Cities by Charles Dickens" +
@@ -109,9 +109,9 @@ public class ExtraController {
 
     @GetMapping("/horror")
     public String horror(){
-        return "Horror aims to frighten, disturb, and evoke feelings of dread in the reader." +
+        return "<h1>Horror aims to frighten, disturb, and evoke feelings of dread in the reader." +
                 " It often features supernatural elements, psychological terror, monsters, or extreme violence," +
-                " exploring humanity's deepest fears and anxieties." +
+                " exploring humanity's deepest fears and anxieties.</h1>" +
                 "<br>Books:" +
                 "<br>1) It by Stephen King" +
                 "<br>2) Frankenstein by Mary Shelley" +
@@ -122,10 +122,10 @@ public class ExtraController {
 
     @GetMapping("/young-adult")
     public String youngAdult(){
-        return "Young Adult literature is written for an audience typically aged 12 to 18. " +
+        return "<h1>Young Adult literature is written for an audience typically aged 12 to 18. " +
                 "It often deals with coming-of-age themes, identity, first love, friendship, " +
                 "and navigating the challenges of adolescence, spanning various genres like fantasy, " +
-                "contemporary, and dystopian." +
+                "contemporary, and dystopian.</h1>" +
                 "<br>Books:" +
                 "<br>1) The Hunger Games by Suzanne Collins" +
                 "<br>2) The Fault in Our Stars by John Green" +
@@ -136,10 +136,10 @@ public class ExtraController {
 
     @GetMapping("/childrens-literature")
     public String childrenLiterature(){
-        return "Children's literature encompasses books written for young readers, " +
+        return "<h1>Children's literature encompasses books written for young readers, " +
                 "typically from infancy through early adolescence. These books often feature simple language," +
                 " engaging stories, colorful illustrations, and aim to entertain, educate, " +
-                "and impart moral lessons suitable for their developmental stage." +
+                "and impart moral lessons suitable for their developmental stage.</h1>" +
                 "<br>Books:" +
                 "<br>1) Charlotte's Web by E.B. White" +
                 "<br>2) Matilda by Roald Dahl" +
@@ -150,10 +150,10 @@ public class ExtraController {
 
     @GetMapping("/biography")
     public String biography(){
-        return "Biographies are non-fiction accounts of a person's life, " +
+        return "<h1>Biographies are non-fiction accounts of a person's life, " +
                 "written by someone else. Memoirs are autobiographical accounts written by the person themselves," +
                 " usually focusing on a specific period, theme, or series of events in their life" +
-                " rather than their entire life story." +
+                " rather than their entire life story.</h1>" +
                 "<br>Books:" +
                 "<br>1) Educated by Tara Westover" +
                 "<br>2) The Diary of a Young Girl by Anne Frank" +
@@ -164,9 +164,9 @@ public class ExtraController {
 
     @GetMapping("/personal-development")
     public String personalDevelopment(){
-        return "These non-fiction books offer advice, strategies, and guidance to help readers improve " +
+        return "<h1>These non-fiction books offer advice, strategies, and guidance to help readers improve " +
                 "various aspects of their lives, such as relationships, career, finances, mental health, " +
-                "or personal habits. They often provide actionable steps and motivational insights." +
+                "or personal habits. They often provide actionable steps and motivational insights.</h1>" +
                 "<br>Books:" +
                 "<br>1) Atomic Habits by James Clear" +
                 "<br>2) The 7 Habits of Highly Effective People by Stephen Covey" +
@@ -177,10 +177,10 @@ public class ExtraController {
 
     @GetMapping("/classics")
     public String classics(){
-        return "Classic literature refers to books that have stood the test of time, " +
+        return "<h1>Classic literature refers to books that have stood the test of time, " +
                 "demonstrating enduring literary merit and cultural significance. " +
                 "They often explore universal themes, have influenced subsequent literature, " +
-                "and are widely studied and admired across generations." +
+                "and are widely studied and admired across generations.</h1>" +
                 "<br>Books:" +
                 "<br>1) To Kill a Mockingbird by Harper Lee" +
                 "<br>2) The Great Gatsby by F. Scott Fitzgerald" +
@@ -191,10 +191,10 @@ public class ExtraController {
 
     @GetMapping("/non-fiction")
     public String nonFiction(){
-        return "This broad category includes factual books that provide information, " +
+        return "<h1>This broad category includes factual books that provide information, " +
                 "analysis, or arguments about real-world topics. This can range from detailed historical accounts," +
                 " scientific explanations, journalistic investigations, travelogues, " +
-                "and essays on a wide array of subjects." +
+                "and essays on a wide array of subjects.</h1>" +
                 "<br>Books:" +
                 "<br>1) Sapiens: A Brief History of Humankind by Yuval Noah Harari" +
                 "<br>2) Cosmos by Carl Sagan" +
@@ -205,10 +205,10 @@ public class ExtraController {
 
     @GetMapping("/novels-and-comics")
     public String novelsAndComics(){
-        return "Graphic novels and comics tell stories primarily through sequential art, " +
+        return "<h1>Graphic novels and comics tell stories primarily through sequential art, " +
                 "combining illustrations with text. They can span all genres and often feature complex narratives," +
                 " sophisticated artwork, and are distinct from traditional comic strips in their length" +
-                " and often more mature themes." +
+                " and often more mature themes.</h1>" +
                 "<br>Books:" +
                 "<br>1) Maus by Art Spiegelman" +
                 "<br>2) Persepolis by Marjane Satrapi" +
@@ -219,10 +219,10 @@ public class ExtraController {
 
     @GetMapping("/poetry")
     public String poetry(){
-        return "Poetry is a form of literature that uses aesthetic and rhythmic qualities of language" +
+        return "<h1>Poetry is a form of literature that uses aesthetic and rhythmic qualities of language" +
                 " such as phonaesthetics, sound symbolism, and metre to evoke meanings in addition to, " +
                 "or in place of, prosaic ostensible meaning. It often explores emotions, experiences, " +
-                "and ideas in a concise and evocative manner." +
+                "and ideas in a concise and evocative manner.</h1>" +
                 "<br>Books:" +
                 "<br>1) The Waste Land by T.S. Eliot" +
                 "<br>2) Leaves of Grass by Walt Whitman" +
